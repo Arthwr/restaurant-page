@@ -1,3 +1,4 @@
+import "./global.css";
 import "./main.css";
 import fireIcon from "./images/fire-icon.svg";
 import cartIcon from "./images/cart-icon.svg";
