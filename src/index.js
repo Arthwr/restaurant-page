@@ -77,7 +77,7 @@ const main = () => {
   return mainSection;
 };
 
-// Scroll event for image to appear
+// Scroll event for middle image to appear
 const handleEntryScroll = () => {
   if (window.scrollY >= 200) {
     const img = document.querySelector(".grid-container > img:nth-child(2)");
