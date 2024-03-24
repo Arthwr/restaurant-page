@@ -11,16 +11,16 @@
 
 @font-face {
   font-family: "koho";
-  src: url("fonts/koho-regular-webfont.woff2") format(woff2),
-    url("fonts/koho-regular-webfont.woff") format(woff);
+  src: url("../fonts/koho-regular-webfont.woff2") format(woff2),
+    url("../fonts/koho-regular-webfont.woff") format(woff);
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "lexend deca";
-  src: url("fonts/lexend-deca-regular.woff2") format(woff2),
-    url("fonts/lexend-deca-regular.woff") format(woff);
+  src: url("../fonts/lexend-deca-regular.woff2") format(woff2),
+    url("../fonts/lexend-deca-regular.woff") format(woff);
   font-weight: normal;
   font-style: normal;
 }

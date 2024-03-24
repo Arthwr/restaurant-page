@@ -1,5 +1,5 @@
-import "./global.css";
-import "./main.css";
+import "./styles/global.css";
+import "./styles/main.css";
 import fireIcon from "./images/fire-icon.svg";
 import cartIcon from "./images/cart-icon.svg";
 import foodImg1 from "./images/main-food-1.webp";
