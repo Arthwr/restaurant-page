@@ -1,5 +1,6 @@
 import main from "./main.js";
 import about from "./about.js";
+import menu from "./menu.js";
 import loadNavImages from "./nav.js";
 import handleLinks from "./handleNav.js";
 
@@ -12,10 +13,8 @@ mainLinks.forEach((link) => {
 
 const aboutLink = document.querySelector(".about");
 const menuLink = document.querySelector(".menu");
-const contactLink = document.querySelector(".contact");
 
 aboutLink.addEventListener("click", () => handleLinks(about));
 menuLink.addEventListener("click", () => handleLinks(menu));
-contactLink.addEventListener("click", () => handleLinks(contact));
 
 handleLinks(main);
