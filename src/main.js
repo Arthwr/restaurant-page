@@ -65,8 +65,8 @@ export default function main() {
 
   // Scroll event for middle image to appear
   const handleEntryScroll = () => {
-    if (window.scrollY >= 200) {
-      const img = document.querySelector(".grid-container > img:nth-child(2)");
+    const img = document.querySelector(".grid-container > img:nth-child(2)");
+    if (window.scrollY >= 200 && img) {
       img.classList.add("visible");
       window.removeEventListener("scroll", handleEntryScroll);
     }

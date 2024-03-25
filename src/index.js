@@ -1,4 +1,5 @@
 import main from "./main.js";
+import about from "./about.js";
 import loadNavImages from "./nav.js";
 import handleLinks from "./handleNav.js";
 
